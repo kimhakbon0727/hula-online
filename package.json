@@ -1,0 +1,14 @@
+{
+  "name": "hula-online",
+  "version": "1.0.0",
+  "description": "훌라 (Korean rummy) 온라인 멀티플레이 서버",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js",
+    "sim": "node test/sim.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": { "ws": "^8.18.0" },
+  "license": "MIT"
+}
